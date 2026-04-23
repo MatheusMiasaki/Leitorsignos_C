@@ -8,7 +8,7 @@ int main(){
     printf("Digite o mês do seu aniversário:");
     scanf ("%d",&mes);
 
-    int datas = data(dia,mes);
+    dia, mes = determinar_signo(dia,mes);
 
     
 

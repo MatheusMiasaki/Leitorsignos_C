@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquário</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #003bfd, #000000);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column; /* empilha */
+            align-items: center;
+        }
+
+        main {
+            background: rgb(218, 218, 218);
+            padding: 35px;
+            border-radius: 15px;
+            max-width: 800px;
+            width: 90%;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 15px;
+            color: #1800f0;
+        }
+
+        img {
+            width: 250px;
+            margin: 15px 0;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background: #ff0000;
+            color: rgb(0, 0, 0);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+
+        footer {
+            text-align: justify;
+            margin-top: 25px;
+            font-size: 12px;
+            flex-direction: column; 
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Aquário</h1>
+            <img src="./img/aquario.png" alt="aquario">
+            <p>
+                O signo de Aquário é o décimo primeiro do zodíaco e está associado à inovação, independência e pensamento original.
+                Regido pelo planeta Urano, Aquário tem forte ligação com a mudança, a tecnologia e ideias fora do comum.
+                Pessoas aquarianas costumam ser criativas, inteligentes e visionárias, sempre pensando no futuro e em novas possibilidades.<br> 
+                Valorizam a liberdade e gostam de agir de forma diferente do padrão. 
+                Por outro lado, podem ser distantes, imprevisíveis e um pouco teimosas.
+                Aquário é um signo de elemento ar, o que reforça seu lado racional, comunicativo e inovador. 
+                Em resumo, aquarianos são conhecidos por sua originalidade, espírito livre e vontade de transformar o mundo.
+
+            </p>
+        </header>
+
+        <button onclick="window.close()">Fechar Aba</button>
+    </main>
+     <footer>Signos em C - Matheus e Rodrigo</footer>
+</body>
+</html>
