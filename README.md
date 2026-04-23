@@ -1,1 +1,1 @@
-# trabalho_c
+# Leitor de Signos em C
