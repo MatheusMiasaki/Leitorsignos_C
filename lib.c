@@ -50,7 +50,7 @@ int determinar_signo(int dia, int mes) {
     else if ((mes == 11 && dia >= 22) || (mes == 12 && dia <= 21)) {
         return system("xdg-open ../html/sagitario.html");
     }
-    // Capricórnio: 22/12 a 20/01
+    // Capricórnio: 22/12 a 20/01.
     else if ((mes == 12 && dia >= 22) || (mes == 1 && dia <= 20)) {
         return system("xdg-open ../html/capricornio.html");
     }

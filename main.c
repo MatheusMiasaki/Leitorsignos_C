@@ -9,7 +9,7 @@ int main() {
         scanf("%d", &dia);
         printf("Digite o mês do seu aniversário (0 para sair):\n ");
         scanf("%d", &mes);
-        //Se usuário digitar 0 ele quebra a estrutura de repetição
+        //Se usuário digitar 0 ele quebra a estrutura de repetição.
         if (mes == 0) {
             break;
         }
