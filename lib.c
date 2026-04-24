@@ -54,7 +54,7 @@ int determinar_signo(int dia, int mes) {
     else if ((mes == 12 && dia >= 22) || (mes == 1 && dia <= 20)) {
         return system("xdg-open ../html/capricornio.html");
     }
-    // Aquário: 21/01 a 19/02
+    // Aquário: 21/01 a 19/02.
     else if ((mes == 1 && dia >= 21) || (mes == 2 && dia <= 19)) {
         return system("xdg-open ../html/aquario.html");
     }

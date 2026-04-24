@@ -14,7 +14,7 @@ int main() {
             break;
         }
         determinar_signo(dia, mes);
-    } while (1); // Repetir até que o usuário escolha sair
+    } while (1); // Repetir até que o usuário escolha sair.
 
     return 0;
 }
