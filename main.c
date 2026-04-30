@@ -3,18 +3,24 @@
 
 int main() {
     int dia, mes;
-    
+    int continua = 0;
+
     do {
         printf("Digite o dia do seu aniversário:\n ");
         scanf("%d", &dia);
-        printf("Digite o mês do seu aniversário (0 para sair):\n ");
+        printf("Digite o mês do seu aniversário:\n ");
         scanf("%d", &mes);
         //Se usuário digitar 0 ele quebra a estrutura de repetição.
-        if (mes == 0) {
-            break;
+        if( data_valida(dia, mes)){
+           determinar_signo(dia, mes);
         }
-        determinar_signo(dia, mes);
-    } while (1); // Repetir até que o usuário escolha sair.
+        else{
+            printf("Data Inválida.\n\n");
+        }   
+        printf("(0 - Sair || 1 - Continuar)\n\n");
+        scanf("%d",&continua);
+
+    } while(continua); // Repetir até que o usuário escolha sair.
 
     return 0;
 }
